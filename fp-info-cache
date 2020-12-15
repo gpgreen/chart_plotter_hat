@@ -1,370 +1,377 @@
-1607992327174
-Housings_QFP
-HTQFP-64-1EP_10x10mm_Pitch0.5mm_ThermalPad
+1608006698356
+Capacitors_SMD
+CP_Elec_3x5.3
 
 
 0
 0
 0
-Housings_QFP
-LQFP-32-1EP_5x5mm_Pitch0.5mm
+Capacitors_SMD
+CP_Elec_4x4.5
 
 
 0
 0
 0
-Housings_QFP
-LQFP-32_5x5mm_Pitch0.5mm
+Capacitors_SMD
+CP_Elec_4x5.3
 
 
 0
 0
 0
-Housings_QFP
-LQFP-32_7x7mm_Pitch0.8mm
+Capacitors_SMD
+CP_Elec_4x5.7
 
 
 0
 0
 0
-Housings_QFP
-LQFP-36_7x7mm_Pitch0.65mm
+Capacitors_SMD
+CP_Elec_4x5.8
 
 
 0
 0
 0
-Housings_QFP
-LQFP-44_10x10mm_Pitch0.8mm
+Capacitors_SMD
+CP_Elec_5x4.5
 
 
 0
 0
 0
-Housings_QFP
-LQFP-48_7x7mm_Pitch0.5mm
+Capacitors_SMD
+CP_Elec_5x5.3
 
 
 0
 0
 0
-Housings_QFP
-LQFP-52-1EP_10x10mm_Pitch0.65mm
+Capacitors_SMD
+CP_Elec_5x5.7
 
 
 0
 0
 0
-Housings_QFP
-LQFP-52_10x10mm_Pitch0.65mm
+Capacitors_SMD
+CP_Elec_5x5.8
 
 
 0
 0
 0
-Housings_QFP
-LQFP-64-1EP_10x10mm_Pitch0.5mm
+Capacitors_SMD
+CP_Elec_6.3x4.5
 
 
 0
 0
 0
-Housings_QFP
-LQFP-64_7x7mm_Pitch0.4mm
+Capacitors_SMD
+CP_Elec_6.3x5.3
 
 
 0
 0
 0
-Housings_QFP
-LQFP-64_10x10mm_Pitch0.5mm
+Capacitors_SMD
+CP_Elec_6.3x5.7
 
 
 0
 0
 0
-Housings_QFP
-LQFP-64_14x14mm_Pitch0.8mm
+Capacitors_SMD
+CP_Elec_6.3x5.8
 
 
 0
 0
 0
-Housings_QFP
-LQFP-80_10x10mm_Pitch0.4mm
+Capacitors_SMD
+CP_Elec_6.3x7.7
 
 
 0
 0
 0
-Housings_QFP
-LQFP-80_12x12mm_Pitch0.5mm
+Capacitors_SMD
+CP_Elec_8x5.4
 
 
 0
 0
 0
-Housings_QFP
-LQFP-80_14x14mm_Pitch0.65mm
+Capacitors_SMD
+CP_Elec_8x6.5
 
 
 0
 0
 0
-Housings_QFP
-LQFP-100_14x14mm_Pitch0.5mm
+Capacitors_SMD
+CP_Elec_8x6.7
 
 
 0
 0
 0
-Housings_QFP
-LQFP-128_14x14mm_Pitch0.4mm
+Capacitors_SMD
+CP_Elec_8x10
 
 
 0
 0
 0
-Housings_QFP
-LQFP-128_14x20mm_Pitch0.5mm
+Capacitors_SMD
+CP_Elec_8x10.5
 
 
 0
 0
 0
-Housings_QFP
-LQFP-144_20x20mm_Pitch0.5mm
+Capacitors_SMD
+CP_Elec_10x7.7
 
 
 0
 0
 0
-Housings_QFP
-LQFP-160_24x24mm_Pitch0.5mm
+Capacitors_SMD
+CP_Elec_10x10
 
 
 0
 0
 0
-Housings_QFP
-LQFP-176_20x20mm_Pitch0.4mm
+Capacitors_SMD
+CP_Elec_10x10.5
 
 
 0
 0
 0
-Housings_QFP
-LQFP-176_24x24mm_Pitch0.5mm
+Capacitors_SMD
+C_0201
 
 
 0
 0
 0
-Housings_QFP
-LQFP-208_28x28mm_Pitch0.5mm
+Capacitors_SMD
+C_0201_NoSilk
 
 
 0
 0
 0
-Housings_QFP
-LQFP-216_24x24mm_Pitch0.4mm
+Capacitors_SMD
+C_0402
 
 
 0
 0
 0
-Housings_QFP
-PQFP-44_10x10mm_Pitch0.8mm
+Capacitors_SMD
+C_0402_NoSilk
 
 
 0
 0
 0
-Housings_QFP
-PQFP-80_14x20mm_Pitch0.8mm
+Capacitors_SMD
+C_0603
 
 
 0
 0
 0
-Housings_QFP
-PQFP-100_14x20mm_Pitch0.65mm
+Capacitors_SMD
+C_0603_HandSoldering
 
 
 0
 0
 0
-Housings_QFP
-PQFP-112_20x20mm_Pitch0.65mm
+Capacitors_SMD
+C_0805
 
 
 0
 0
 0
-Housings_QFP
-PQFP-132_24x24mm_Pitch0.635mm
+Capacitors_SMD
+C_0805_HandSoldering
 
 
 0
 0
 0
-Housings_QFP
-PQFP-132_24x24mm_Pitch0.635mm_i386
+Capacitors_SMD
+C_1206
 
 
 0
 0
 0
-Housings_QFP
-PQFP-160_28x28mm_Pitch0.65mm
+Capacitors_SMD
+C_1206_HandSoldering
 
 
 0
 0
 0
-Housings_QFP
-PQFP-208_28x28mm_Pitch0.5mm
+Capacitors_SMD
+C_1210
 
 
 0
 0
 0
-Housings_QFP
-PQFP-256_28x28mm_Pitch0.4mm
+Capacitors_SMD
+C_1210_HandSoldering
 
 
 0
 0
 0
-Housings_QFP
-TQFP-32_7x7mm_Pitch0.8mm
+Capacitors_SMD
+C_1812
 
 
 0
 0
 0
-Housings_QFP
-TQFP-44-1EP_10x10mm_Pitch0.8mm
+Capacitors_SMD
+C_1812_HandSoldering
 
 
 0
 0
 0
-Housings_QFP
-TQFP-44_10x10mm_Pitch0.8mm
+Capacitors_SMD
+C_1825
 
 
 0
 0
 0
-Housings_QFP
-TQFP-48-1EP_7x7mm_Pitch0.5mm
+Capacitors_SMD
+C_1825_HandSoldering
 
 
 0
 0
 0
-Housings_QFP
-TQFP-48_7x7mm_Pitch0.5mm
+Capacitors_SMD
+C_2220
 
 
 0
 0
 0
-Housings_QFP
-TQFP-64-1EP_10x10mm_Pitch0.5mm
+Capacitors_SMD
+C_2220_HandSoldering
 
 
 0
 0
 0
-Housings_QFP
-TQFP-64_7x7mm_Pitch0.4mm
+Capacitors_SMD
+C_2225
 
 
 0
 0
 0
-Housings_QFP
-TQFP-64_10x10mm_Pitch0.5mm
+Capacitors_SMD
+C_2225_HandSoldering
 
 
 0
 0
 0
-Housings_QFP
-TQFP-64_14x14mm_Pitch0.8mm
+Capacitors_SMD
+C_Trimmer_Murata_TZB4-A
 
 
 0
 0
 0
-Housings_QFP
-TQFP-80-1EP_14x14mm_Pitch0.65mm
+Capacitors_SMD
+C_Trimmer_Murata_TZB4-B
 
 
 0
 0
 0
-Housings_QFP
-TQFP-80_12x12mm_Pitch0.5mm
+Capacitors_SMD
+C_Trimmer_Murata_TZC3
 
 
 0
 0
 0
-Housings_QFP
-TQFP-80_14x14mm_Pitch0.65mm
+Capacitors_SMD
+C_Trimmer_Murata_TZR1
 
 
 0
 0
 0
-Housings_QFP
-TQFP-100-1EP_14x14mm_Pitch0.5mm
+Capacitors_SMD
+C_Trimmer_Murata_TZW4
 
 
 0
 0
 0
-Housings_QFP
-TQFP-100_12x12mm_Pitch0.4mm
+Capacitors_SMD
+C_Trimmer_Murata_TZY2
 
 
 0
 0
 0
-Housings_QFP
-TQFP-100_14x14mm_Pitch0.5mm
+Capacitors_SMD
+C_Trimmer_Sprague-Goodman_SGC3
 
 
 0
 0
 0
-Housings_QFP
-TQFP-120_14x14mm_Pitch0.4mm
+Capacitors_SMD
+C_Trimmer_Voltronics_JN
 
 
 0
 0
 0
-Housings_QFP
-TQFP-128_14x14mm_Pitch0.4mm
+Capacitors_SMD
+C_Trimmer_Voltronics_JQ
 
 
 0
 0
 0
-Housings_QFP
-TQFP-144_16x16mm_Pitch0.4mm
+Capacitors_SMD
+C_Trimmer_Voltronics_JR
 
 
 0
 0
 0
-Housings_QFP
-TQFP-144_20x20mm_Pitch0.5mm
+Capacitors_SMD
+C_Trimmer_Voltronics_JV
+
+
+0
+0
+0
+Capacitors_SMD
+C_Trimmer_Voltronics_JZ
 
 
 0

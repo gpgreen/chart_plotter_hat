@@ -78,8 +78,6 @@ Wire Wire Line
 	5300 2400 5750 2400
 Text Notes 5150 1750 0    118  ~ 24
 5V Powered HAT Protection
-Text Notes 4900 2050 0    60   ~ 0
-This is the recommended 5V rail protection for \na HAT with power going to the Pi.\nSee https://github.com/raspberrypi/hats/blob/master/designguide.md#back-powering-the-pi-via-the-j8-gpio-header
 $Comp
 L raspberrypi_hat:DMG2305UX Q1
 U 1 1 58E14EB1
@@ -401,52 +399,41 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J1
 U 1 1 5FD37EF3
-P 11300 3750
-F 0 "J1" H 11350 4067 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 11350 3976 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 11300 3750 50  0001 C CNN
-F 3 "~" H 11300 3750 50  0001 C CNN
-	1    11300 3750
+P 10250 2600
+F 0 "J1" H 10300 2917 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 10300 2826 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 10250 2600 50  0001 C CNN
+F 3 "~" H 10250 2600 50  0001 C CNN
+	1    10250 2600
 	1    0    0    -1  
 $EndComp
-Text Notes 11050 3375 0    50   ~ 0
+Text Notes 10000 2225 0    118  ~ 24
 BMP085 Connector
 $Comp
 L power:GND #PWR0108
 U 1 1 5FDC841D
-P 12100 3650
-F 0 "#PWR0108" H 12100 3400 50  0001 C CNN
-F 1 "GND" H 12105 3477 50  0000 C CNN
-F 2 "" H 12100 3650 50  0001 C CNN
-F 3 "" H 12100 3650 50  0001 C CNN
-	1    12100 3650
+P 11050 2500
+F 0 "#PWR0108" H 11050 2250 50  0001 C CNN
+F 1 "GND" H 11055 2327 50  0000 C CNN
+F 2 "" H 11050 2500 50  0001 C CNN
+F 3 "" H 11050 2500 50  0001 C CNN
+	1    11050 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11600 3650 12100 3650
-Text GLabel 11600 3750 2    50   Input ~ 0
+	10550 2500 11050 2500
+Text GLabel 10550 2600 2    50   Input ~ 0
 XCLR
-Text GLabel 11600 3850 2    50   BiDi ~ 0
+Text GLabel 10550 2700 2    50   BiDi ~ 0
 SDA
-Text GLabel 11100 3850 0    50   Input ~ 0
+Text GLabel 10050 2700 0    50   Input ~ 0
 SCL
-Text GLabel 10900 3750 2    50   Output ~ 0
+Text GLabel 9850 2600 2    50   Output ~ 0
 EOC
 Wire Wire Line
-	11100 3650 10850 3650
-Text Notes 6425 9575 0    50   ~ 0
+	10050 2500 9800 2500
+Text Notes 6425 9575 0    118  ~ 24
 Power Connector
-$Comp
-L adafruit:MPM3610-adafruit U3
-U 1 1 5FD6743F
-P 6800 7775
-F 0 "U3" H 6775 7890 50  0000 C CNN
-F 1 "MPM3610-adafruit" H 6775 7799 50  0000 C CNN
-F 2 "CustomComponents:Adafruit_MPM3610" H 6800 7775 50  0001 C CNN
-F 3 "" H 6800 7775 50  0001 C CNN
-	1    6800 7775
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6200 7925 6300 7925
 Wire Wire Line
@@ -480,15 +467,15 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J5
 U 1 1 5FDC1F9B
-P 14500 6850
-F 0 "J5" H 14550 7167 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 14550 7076 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.00mm" H 14500 6850 50  0001 C CNN
-F 3 "~" H 14500 6850 50  0001 C CNN
-	1    14500 6850
+P 14500 4825
+F 0 "J5" H 14550 5142 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 14550 5051 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.00mm" H 14500 4825 50  0001 C CNN
+F 3 "~" H 14500 4825 50  0001 C CNN
+	1    14500 4825
 	1    0    0    -1  
 $EndComp
-Text Notes 14800 6475 2    50   ~ 0
+Text Notes 14800 4450 2    118  ~ 24
 ADC Connector
 Text GLabel 12550 6500 2    50   Input ~ 0
 A0
@@ -502,17 +489,17 @@ Text GLabel 12550 6900 2    50   Input ~ 0
 A4
 Text GLabel 12550 7000 2    50   Input ~ 0
 A5
-Text GLabel 14300 6750 0    50   Input ~ 0
+Text GLabel 14300 4725 0    50   Input ~ 0
 A0
-Text GLabel 14800 6750 2    50   Input ~ 0
+Text GLabel 14800 4725 2    50   Input ~ 0
 A1
-Text GLabel 14300 6850 0    50   Input ~ 0
+Text GLabel 14300 4825 0    50   Input ~ 0
 A2
-Text GLabel 14800 6850 2    50   Input ~ 0
+Text GLabel 14800 4825 2    50   Input ~ 0
 A3
-Text GLabel 14300 6950 0    50   Input ~ 0
+Text GLabel 14300 4925 0    50   Input ~ 0
 A4
-Text GLabel 14800 6950 2    50   Input ~ 0
+Text GLabel 14800 4925 2    50   Input ~ 0
 A5
 Wire Wire Line
 	12275 6500 12550 6500
@@ -567,7 +554,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20w
 	1    11675 6800
 	1    0    0    -1  
 $EndComp
-Text GLabel 12550 6200 2    50   Output ~ 0
+Text GLabel 13325 6200 2    50   Output ~ 0
 SHUTDOWN
 Text GLabel 12550 7600 2    50   Input ~ 0
 MCU_RUNNING
@@ -578,7 +565,7 @@ Wire Wire Line
 Wire Wire Line
 	12275 7600 12550 7600
 Wire Wire Line
-	12275 6200 12550 6200
+	12275 6200 13125 6200
 $Comp
 L power:GND #PWR015
 U 1 1 5FDCD1F3
@@ -664,20 +651,9 @@ U 1 1 5FE6DD6F
 P 8400 6225
 F 0 "C2" H 8515 6271 50  0000 L CNN
 F 1 "1uF" H 8515 6180 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8438 6075 50  0001 C CNN
+F 2 "Capacitors_SMD:C_1206" H 8438 6075 50  0001 C CNN
 F 3 "~" H 8400 6225 50  0001 C CNN
 	1    8400 6225
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 5FE6EE51
-P 9925 6325
-F 0 "C3" H 10040 6371 50  0000 L CNN
-F 1 ".01uF" H 10040 6280 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9963 6175 50  0001 C CNN
-F 3 "~" H 9925 6325 50  0001 C CNN
-	1    9925 6325
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -760,7 +736,7 @@ L Device:C C1
 U 1 1 5FEBF281
 P 11350 4900
 F 0 "C1" H 11465 4946 50  0000 L CNN
-F 1 ".01uF" H 11465 4855 50  0000 L CNN
+F 1 ".1uF" H 11465 4855 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 11388 4750 50  0001 C CNN
 F 3 "~" H 11350 4900 50  0001 C CNN
 	1    11350 4900
@@ -811,7 +787,7 @@ L Device:C C5
 U 1 1 5FFED6E8
 P 10900 4900
 F 0 "C5" H 11015 4946 50  0000 L CNN
-F 1 ".01uF" H 11015 4855 50  0000 L CNN
+F 1 ".1uF" H 11015 4855 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10938 4750 50  0001 C CNN
 F 3 "~" H 10900 4900 50  0001 C CNN
 	1    10900 4900
@@ -863,12 +839,12 @@ Wire Wire Line
 $Comp
 L power:+3.3V #PWR0109
 U 1 1 5FE11920
-P 10850 3650
-F 0 "#PWR0109" H 10850 3500 50  0001 C CNN
-F 1 "+3.3V" H 10865 3823 50  0000 C CNN
-F 2 "" H 10850 3650 50  0001 C CNN
-F 3 "" H 10850 3650 50  0001 C CNN
-	1    10850 3650
+P 9800 2500
+F 0 "#PWR0109" H 9800 2350 50  0001 C CNN
+F 1 "+3.3V" H 9815 2673 50  0000 C CNN
+F 2 "" H 9800 2500 50  0001 C CNN
+F 3 "" H 9800 2500 50  0001 C CNN
+	1    9800 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -893,8 +869,8 @@ F 3 "~" H 4825 9525 50  0001 C CNN
 	1    4825 9525
 	1    0    0    -1  
 $EndComp
-Text Notes 4500 9300 0    50   ~ 0
-Video Power Connector
+Text Notes 4175 8350 0    118  ~ 24
+Video Power
 $Comp
 L power:GND #PWR0111
 U 1 1 5FF08C70
@@ -947,8 +923,6 @@ Wire Wire Line
 	3825 9000 3675 9000
 Wire Wire Line
 	3675 9000 3675 9100
-Text GLabel 3400 8800 0    50   Input ~ 0
-EN_VIDEO
 Wire Wire Line
 	3700 8800 3825 8800
 $Comp
@@ -956,16 +930,12 @@ L Device:R R2
 U 1 1 5FF8607A
 P 3550 8800
 F 0 "R2" V 3630 8800 50  0000 C CNN
-F 1 "412" V 3550 8800 50  0000 C CNN
+F 1 "680" V 3550 8800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3480 8800 50  0001 C CNN
 F 3 "" H 3550 8800 50  0001 C CNN
 	1    3550 8800
 	0    1    1    0   
 $EndComp
-Text GLabel 12550 7800 2    50   Output ~ 0
-EN_VIDEO
-Wire Wire Line
-	12275 7800 12550 7800
 $Comp
 L Device:LED D1
 U 1 1 5FFC81FE
@@ -982,7 +952,7 @@ L Device:R R4
 U 1 1 5FFD3B97
 P 7650 8625
 F 0 "R4" V 7730 8625 50  0000 C CNN
-F 1 "1K" V 7650 8625 50  0000 C CNN
+F 1 "680" V 7650 8625 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 7580 8625 50  0001 C CNN
 F 3 "" H 7650 8625 50  0001 C CNN
 	1    7650 8625
@@ -1009,45 +979,34 @@ $EndComp
 $Comp
 L Device:LED D2
 U 1 1 5FFED207
-P 6200 8325
-F 0 "D2" V 6239 8207 50  0000 R CNN
-F 1 "LED" V 6148 8207 50  0000 R CNN
-F 2 "LEDs:LED_0603_HandSoldering" H 6200 8325 50  0001 C CNN
-F 3 "~" H 6200 8325 50  0001 C CNN
-	1    6200 8325
+P 13125 6350
+F 0 "D2" V 13164 6232 50  0000 R CNN
+F 1 "LED" V 13073 6232 50  0000 R CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 13125 6350 50  0001 C CNN
+F 3 "~" H 13125 6350 50  0001 C CNN
+	1    13125 6350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R3
 U 1 1 5FFED8DA
-P 5950 8575
-F 0 "R3" V 6030 8575 50  0000 C CNN
-F 1 "1K" V 5950 8575 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5880 8575 50  0001 C CNN
-F 3 "" H 5950 8575 50  0001 C CNN
-	1    5950 8575
+P 13275 6650
+F 0 "R3" V 13355 6650 50  0000 C CNN
+F 1 "330" V 13275 6650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 13205 6650 50  0001 C CNN
+F 3 "" H 13275 6650 50  0001 C CNN
+	1    13275 6650
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6300 8125 6200 8125
-Wire Wire Line
-	6200 8175 6200 8125
-Connection ~ 6200 8125
-Wire Wire Line
-	6200 8125 6100 8125
-Wire Wire Line
-	6200 8475 6200 8575
-Wire Wire Line
-	6200 8575 6100 8575
 $Comp
 L power:GND #PWR017
 U 1 1 600009B4
-P 5800 8575
-F 0 "#PWR017" H 5800 8325 50  0001 C CNN
-F 1 "GND" H 5800 8425 50  0000 C CNN
-F 2 "" H 5800 8575 50  0000 C CNN
-F 3 "" H 5800 8575 50  0000 C CNN
-	1    5800 8575
+P 13425 6650
+F 0 "#PWR017" H 13425 6400 50  0001 C CNN
+F 1 "GND" H 13425 6500 50  0000 C CNN
+F 2 "" H 13425 6650 50  0000 C CNN
+F 3 "" H 13425 6650 50  0000 C CNN
+	1    13425 6650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1056,9 +1015,9 @@ Wire Wire Line
 	4500 9000 4500 9525
 Wire Wire Line
 	4500 9525 4625 9525
-Text GLabel 14300 7050 0    50   Input ~ 0
+Text GLabel 14300 5025 0    50   Input ~ 0
 A6
-Text GLabel 14800 7050 2    50   Input ~ 0
+Text GLabel 14800 5025 2    50   Input ~ 0
 A7
 Text GLabel 10975 5800 0    50   Input ~ 0
 A6
@@ -1071,36 +1030,36 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x04 J10
 U 1 1 5FD96B98
-P 13875 3525
-F 0 "J10" H 13955 3517 50  0000 L CNN
-F 1 "Conn_01x04" H 13955 3426 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.00mm" H 13875 3525 50  0001 C CNN
-F 3 "~" H 13875 3525 50  0001 C CNN
-	1    13875 3525
+P 13775 2575
+F 0 "J10" H 13855 2567 50  0000 L CNN
+F 1 "Conn_01x04" H 13855 2476 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.00mm" H 13775 2575 50  0001 C CNN
+F 3 "~" H 13775 2575 50  0001 C CNN
+	1    13775 2575
 	1    0    0    -1  
 $EndComp
-Text Notes 13650 3275 0    50   ~ 0
+Text Notes 13550 2325 0    118  ~ 24
 GPS Connector
 Wire Wire Line
-	13675 3425 13350 3425
-Text Label 13375 3425 0    50   ~ 0
+	13575 2475 13250 2475
+Text Label 13275 2475 0    50   ~ 0
 P5V
 $Comp
 L power:GND #PWR0114
 U 1 1 5FDAC278
-P 13150 3525
-F 0 "#PWR0114" H 13150 3275 50  0001 C CNN
-F 1 "GND" H 13155 3352 50  0000 C CNN
-F 2 "" H 13150 3525 50  0001 C CNN
-F 3 "" H 13150 3525 50  0001 C CNN
-	1    13150 3525
+P 13050 2575
+F 0 "#PWR0114" H 13050 2325 50  0001 C CNN
+F 1 "GND" H 13055 2402 50  0000 C CNN
+F 2 "" H 13050 2575 50  0001 C CNN
+F 3 "" H 13050 2575 50  0001 C CNN
+	1    13050 2575
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13150 3525 13675 3525
-Text GLabel 13675 3625 0    50   Input ~ 0
+	13050 2575 13575 2575
+Text GLabel 13575 2675 0    50   Input ~ 0
 SerialRX
-Text GLabel 13675 3725 0    50   Output ~ 0
+Text GLabel 13575 2775 0    50   Output ~ 0
 SerialTX
 Text GLabel 3550 2550 2    50   Input ~ 0
 SerialRX
@@ -1121,7 +1080,7 @@ F 3 "~" H 9525 8475 50  0001 C CNN
 	1    9525 8475
 	1    0    0    -1  
 $EndComp
-Text Notes 9525 8050 0    50   ~ 0
+Text Notes 9525 8050 0    118  ~ 24
 ISP
 Text GLabel 9325 8375 0    50   Output ~ 0
 MISO
@@ -1140,10 +1099,6 @@ F 3 "" H 9825 8575 50  0000 C CNN
 	1    9825 8575
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9825 8375 10150 8375
-Text Label 10075 8375 0    50   ~ 0
-P5V
 Text GLabel 12550 7100 2    50   Input ~ 0
 RESET
 Wire Wire Line
@@ -1206,4 +1161,117 @@ Wire Wire Line
 	13250 7500 13350 7500
 Wire Wire Line
 	13550 7750 13775 7750
+$Comp
+L Device:C C6
+U 1 1 5FDB0A51
+P 3975 5925
+F 0 "C6" H 4090 5971 50  0000 L CNN
+F 1 ".1uF" H 4090 5880 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4013 5775 50  0001 C CNN
+F 3 "~" H 3975 5925 50  0001 C CNN
+	1    3975 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 5FDB715A
+P 3975 5775
+F 0 "#PWR0103" H 3975 5625 50  0001 C CNN
+F 1 "+3.3V" H 3990 5948 50  0000 C CNN
+F 2 "" H 3975 5775 50  0001 C CNN
+F 3 "" H 3975 5775 50  0001 C CNN
+	1    3975 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5FDB75C2
+P 3975 6075
+F 0 "#PWR0104" H 3975 5825 50  0001 C CNN
+F 1 "GND" H 3975 5925 50  0000 C CNN
+F 2 "" H 3975 6075 50  0000 C CNN
+F 3 "" H 3975 6075 50  0000 C CNN
+	1    3975 6075
+	1    0    0    -1  
+$EndComp
+Text Notes 3650 6375 0    50   ~ 0
+EEPROM Bypass Cap
+Text Notes 9100 5675 0    118  ~ 24
+3.3V Power
+Text Notes 6625 7550 0    118  ~ 24
+5V Power
+Text Notes 10900 4450 0    118  ~ 24
+Power Monitor MCU
+$Comp
+L Device:C C7
+U 1 1 5FE38A21
+P 10800 5450
+F 0 "C7" H 10915 5496 50  0000 L CNN
+F 1 ".1uF" H 10915 5405 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 10838 5300 50  0001 C CNN
+F 3 "~" H 10800 5450 50  0001 C CNN
+	1    10800 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11075 5600 10800 5600
+$Comp
+L power:GND #PWR0116
+U 1 1 5FE412AD
+P 10575 5300
+F 0 "#PWR0116" H 10575 5050 50  0001 C CNN
+F 1 "GND" H 10575 5150 50  0000 C CNN
+F 2 "" H 10575 5300 50  0000 C CNN
+F 3 "" H 10575 5300 50  0000 C CNN
+	1    10575 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10575 5300 10800 5300
+Wire Wire Line
+	9825 8375 10050 8375
+$Comp
+L power:+3.3V #PWR0117
+U 1 1 5FDA1B64
+P 10050 8375
+F 0 "#PWR0117" H 10050 8225 50  0001 C CNN
+F 1 "+3.3V" H 10065 8548 50  0000 C CNN
+F 2 "" H 10050 8375 50  0001 C CNN
+F 3 "" H 10050 8375 50  0001 C CNN
+	1    10050 8375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5FE6EE51
+P 9925 6325
+F 0 "C3" H 10040 6371 50  0000 L CNN
+F 1 ".01uF" H 10040 6280 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9963 6175 50  0001 C CNN
+F 3 "~" H 9925 6325 50  0001 C CNN
+	1    9925 6325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 8800 3150 8800
+Text Label 3200 8800 0    50   ~ 0
+P5V
+$Comp
+L adafruit:MPM3610-adafruit U3
+U 1 1 5FD6743F
+P 6800 7775
+F 0 "U3" H 6775 7890 50  0000 C CNN
+F 1 "MPM3610-adafruit" H 6775 7799 50  0000 C CNN
+F 2 "CustomComponents:Adafruit_MPM3610" H 6800 7775 50  0001 C CNN
+F 3 "" H 6800 7775 50  0001 C CNN
+	1    6800 7775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 8125 6300 8125
+Connection ~ 13125 6200
+Wire Wire Line
+	13125 6200 13325 6200
+Wire Wire Line
+	13125 6500 13125 6650
 $EndSCHEMATC
