@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Chart Plotter Hat"
 Date ""
-Rev "A"
+Rev "B"
 Comp "bit-builder.com"
 Comment1 ""
 Comment2 ""
@@ -743,7 +743,7 @@ F 3 "" H 11350 5050 50  0000 C CNN
 $EndComp
 Text GLabel 1700 2950 0    50   Input ~ 0
 SHUTDOWN
-Text GLabel 1700 3050 0    50   Output ~ 0
+Text GLabel 3550 2950 2    50   Output ~ 0
 MCU_RUNNING
 $Comp
 L Device:R R1
@@ -817,8 +817,6 @@ F 3 "" H 3150 7400 50  0001 C CNN
 	1    3150 7400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2000 3050 1700 3050
 Wire Wire Line
 	2000 2950 1700 2950
 $Comp
@@ -1277,4 +1275,6 @@ F 3 "~" H 14525 5125 50  0001 C CNN
 	1    14525 5125
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3200 2950 3550 2950
 $EndSCHEMATC
