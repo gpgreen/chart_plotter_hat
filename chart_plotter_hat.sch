@@ -541,14 +541,12 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20w
 $EndComp
 Text GLabel 13325 6200 2    50   Output ~ 0
 SHUTDOWN
-Text GLabel 12550 7600 2    50   Input ~ 0
+Text GLabel 13250 8000 2    50   Input ~ 0
 MCU_RUNNING
 Text GLabel 13350 7500 2    50   Input ~ 0
 BUTTON
 Wire Wire Line
 	12275 7500 13250 7500
-Wire Wire Line
-	12275 7600 12550 7600
 Wire Wire Line
 	12275 6200 13125 6200
 $Comp
@@ -1920,4 +1918,33 @@ Text Notes 3475 10650 0    50   ~ 0
 Bypass Cap
 Text Notes 5425 10200 0    50   ~ 0
 Bypass Cap
+Wire Wire Line
+	12975 7600 12975 8000
+Wire Wire Line
+	12975 8000 13250 8000
+Wire Wire Line
+	12275 7600 12975 7600
+$Comp
+L Device:R R10
+U 1 1 5FF27922
+P 12975 8150
+F 0 "R10" V 13055 8150 50  0000 C CNN
+F 1 "10K" V 12975 8150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 12905 8150 50  0001 C CNN
+F 3 "" H 12975 8150 50  0001 C CNN
+	1    12975 8150
+	-1   0    0    1   
+$EndComp
+Connection ~ 12975 8000
+$Comp
+L power:GND #PWR023
+U 1 1 5FF3607A
+P 12975 8300
+F 0 "#PWR023" H 12975 8050 50  0001 C CNN
+F 1 "GND" H 12975 8150 50  0000 C CNN
+F 2 "" H 12975 8300 50  0000 C CNN
+F 3 "" H 12975 8300 50  0000 C CNN
+	1    12975 8300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
