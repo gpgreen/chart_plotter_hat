@@ -20,4 +20,4 @@ switched at the same time as the Raspberry Pi.
 The ![firmware](https://github.com/gpgreen/power-monitor) for the
 onboard ATmega328P using avr-gcc and avr-libc.
 
-![Board - Rev A](https://github.com/gpgreen/chart_plotter_hat/blob/main/board.png)
+![Board](board.png)
