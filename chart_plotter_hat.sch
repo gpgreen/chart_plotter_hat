@@ -444,14 +444,12 @@ Wire Wire Line
 	11675 5300 11675 5150
 Text GLabel 12550 6100 2    50   Input ~ 0
 SCK
-Text GLabel 12550 6000 2    50   Output ~ 0
+Text GLabel 13325 6000 2    50   Output ~ 0
 MISO
 Text GLabel 12550 5900 2    50   Input ~ 0
 MOSI
 Wire Wire Line
 	12275 5900 12550 5900
-Wire Wire Line
-	12275 6000 12550 6000
 Wire Wire Line
 	12275 6100 12550 6100
 Text GLabel 12550 5800 2    50   Input ~ 0
@@ -539,7 +537,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20w
 	1    11675 6800
 	1    0    0    -1  
 $EndComp
-Text GLabel 13325 6200 2    50   Output ~ 0
+Text GLabel 12550 6200 2    50   Output ~ 0
 SHUTDOWN
 Text GLabel 13225 8025 2    50   Input ~ 0
 MCU_RUNNING
@@ -547,8 +545,6 @@ Text GLabel 13350 7500 2    50   Input ~ 0
 BUTTON
 Wire Wire Line
 	12275 7500 13250 7500
-Wire Wire Line
-	12275 6200 13125 6200
 $Comp
 L power:GND #PWR015
 U 1 1 5FDCD1F3
@@ -1210,9 +1206,6 @@ F 3 "" H 5625 7600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4925 7950 5125 7950
-Connection ~ 13125 6200
-Wire Wire Line
-	13125 6200 13325 6200
 Wire Wire Line
 	13125 6500 13125 6650
 $Comp
@@ -1304,4 +1297,13 @@ Wire Wire Line
 	4725 10350 4475 10350
 Wire Wire Line
 	4475 10125 5150 10125
+Wire Wire Line
+	12275 6200 12550 6200
+Wire Wire Line
+	12275 6000 13125 6000
+Wire Wire Line
+	13125 6200 13125 6000
+Connection ~ 13125 6000
+Wire Wire Line
+	13125 6000 13325 6000
 $EndSCHEMATC
