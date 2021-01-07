@@ -516,7 +516,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20w
 	1    12500 6625
 	1    0    0    -1  
 $EndComp
-Text GLabel 14300 6025 2    50   Output ~ 0
+Text GLabel 13375 6025 2    50   Output ~ 0
 SHUTDOWN
 Text GLabel 15125 5950 2    50   Input ~ 0
 MCU_RUNNING
@@ -1320,33 +1320,6 @@ Wire Wire Line
 Wire Wire Line
 	13675 5425 13875 5425
 $Comp
-L Device:R R5
-U 1 1 6013CE2D
-P 14125 6175
-F 0 "R5" V 14205 6175 50  0000 C CNN
-F 1 "10K" V 14125 6175 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 14055 6175 50  0001 C CNN
-F 3 "" H 14125 6175 50  0001 C CNN
-	1    14125 6175
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	13100 6025 14125 6025
-Connection ~ 14125 6025
-Wire Wire Line
-	14125 6025 14300 6025
-$Comp
-L power:GND #PWR04
-U 1 1 6014DAF4
-P 14125 6325
-F 0 "#PWR04" H 14125 6075 50  0001 C CNN
-F 1 "GND" H 14125 6175 50  0000 C CNN
-F 2 "" H 14125 6325 50  0000 C CNN
-F 3 "" H 14125 6325 50  0000 C CNN
-	1    14125 6325
-	1    0    0    -1  
-$EndComp
-$Comp
 L Diode:PMEG3020EH D3
 U 1 1 6019111C
 P 9950 9875
@@ -1536,4 +1509,6 @@ Text Notes 6575 9450 0    50   ~ 0
 To use, solder both bridges, and populate R7 and R9
 Wire Wire Line
 	13100 7425 13375 7425
+Wire Wire Line
+	13100 6025 13375 6025
 $EndSCHEMATC
