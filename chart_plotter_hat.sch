@@ -431,7 +431,7 @@ Wire Wire Line
 	13100 5725 13375 5725
 Wire Wire Line
 	13100 5925 13375 5925
-Text GLabel 13375 7425 2    50   Input ~ 0
+Text GLabel 13375 5625 2    50   Input ~ 0
 CS
 Wire Wire Line
 	13100 5525 14950 5525
@@ -1508,7 +1508,11 @@ $EndComp
 Text Notes 6575 9450 0    50   ~ 0
 To use, solder both bridges, and populate R7 and R9
 Wire Wire Line
-	13100 7425 13375 7425
-Wire Wire Line
 	13100 6025 13375 6025
+Wire Wire Line
+	13100 5625 13375 5625
+Text GLabel 1700 2850 0    50   BiDi ~ 0
+BUTTON
+Wire Wire Line
+	1700 2850 2000 2850
 $EndSCHEMATC
