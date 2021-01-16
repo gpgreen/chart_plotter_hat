@@ -1422,20 +1422,9 @@ Wire Wire Line
 Connection ~ 7350 9650
 Wire Wire Line
 	6950 9650 7050 9650
-$Comp
-L Jumper:SolderJumper_2_Open JP2
-U 1 1 6002B929
-P 7900 9650
-F 0 "JP2" H 7900 9750 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 7900 9764 50  0001 C CNN
-F 2 "CustomComponents:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7900 9650 50  0001 C CNN
-F 3 "~" H 7900 9650 50  0001 C CNN
-	1    7900 9650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	8050 9650 8400 9650
-Text Label 8275 9650 0    50   ~ 0
+	7750 9650 8100 9650
+Text Label 7975 9650 0    50   ~ 0
 12VBAT
 Text Notes 6275 9275 0    118  ~ 24
 Optional 12V ADC Measurement
@@ -1506,7 +1495,7 @@ F 3 "" H 11375 2225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 6575 9450 0    50   ~ 0
-To use, solder both bridges, and populate R7 and R9
+To use, solder bridge, and populate R7 and R9
 Wire Wire Line
 	13100 6025 13375 6025
 Wire Wire Line
@@ -1515,4 +1504,8 @@ Text GLabel 1700 2850 0    50   BiDi ~ 0
 BUTTON
 Wire Wire Line
 	1700 2850 2000 2850
+Text Label 775  3050 0    60   ~ 0
+P3V3_HAT
+Wire Wire Line
+	1975 3050 775  3050
 $EndSCHEMATC
