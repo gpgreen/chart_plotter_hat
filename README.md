@@ -17,7 +17,9 @@ switched at the same time as the Raspberry Pi.
 9. SPI on ATmega328P routed to the Raspberry Pi for communication
 
 ## Firmware
-The ![firmware](https://github.com/gpgreen/power-monitor) for the
+There are 2 projects for the firmware. One is using `C`, the other `Rust`.
+ - ![C firmware](https://github.com/gpgreen/power-monitor) for the
 onboard ATmega328P using avr-gcc and avr-libc.
+ - ![Rust firmware](https://github.com/gpgreen/power-monitor-rust).
 
 ![Board](board.png)
