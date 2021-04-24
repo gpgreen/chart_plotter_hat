@@ -1465,17 +1465,6 @@ F 3 "http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf" H 5025 9675 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal Y1
-U 1 1 609CF116
-P 1650 10375
-F 0 "Y1" H 1650 10643 50  0000 C CNN
-F 1 "16 MHz" H 1650 10552 50  0000 C CNN
-F 2 "Crystals:Crystal_SMD_SeikoEpson_TSX3225-4pin_3.2x2.5mm" H 1650 10375 50  0001 C CNN
-F 3 "~" H 1650 10375 50  0001 C CNN
-	1    1650 10375
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C12
 U 1 1 609D50D2
 P 2100 8375
@@ -1541,14 +1530,6 @@ F 3 "~" H 1950 10650 50  0001 C CNN
 	1    1950 10650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2125 9800 1500 9800
-Wire Wire Line
-	1500 9800 1500 10375
-Wire Wire Line
-	2125 9900 1800 9900
-Wire Wire Line
-	1800 9900 1800 10375
 Wire Wire Line
 	3325 9000 4100 9000
 Wire Wire Line
@@ -1813,15 +1794,9 @@ Wire Wire Line
 	1375 9200 1450 9200
 Connection ~ 1450 9200
 Wire Wire Line
-	1500 10375 1350 10375
-Wire Wire Line
 	1350 10375 1350 10500
-Connection ~ 1500 10375
-Wire Wire Line
-	1800 10375 1950 10375
 Wire Wire Line
 	1950 10375 1950 10500
-Connection ~ 1800 10375
 Wire Wire Line
 	1350 10800 1350 10875
 Wire Wire Line
@@ -1829,7 +1804,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 10800 1950 10875
 Wire Wire Line
-	1950 10875 1650 10875
+	1950 10875 1800 10875
 Connection ~ 1650 10875
 Text Notes 2450 7675 0    118  ~ 24
 CAN Bus
@@ -2193,10 +2168,10 @@ F 3 "" H 3725 9875 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0128
 U 1 1 6082CF3C
 P 3925 9725
-F 0 "#PWR?" H 3925 9575 50  0001 C CNN
+F 0 "#PWR0128" H 3925 9575 50  0001 C CNN
 F 1 "+5V" H 3940 9898 50  0000 C CNN
 F 2 "" H 3925 9725 50  0001 C CNN
 F 3 "" H 3925 9725 50  0001 C CNN
@@ -2245,4 +2220,38 @@ Wire Wire Line
 Connection ~ 3525 9600
 Wire Wire Line
 	3525 9600 3650 9600
+$Comp
+L Device:Crystal_GND24_Small Y1
+U 1 1 6085E13C
+P 1650 10375
+F 0 "Y1" H 1600 10625 50  0000 L CNN
+F 1 "16MHz" H 1525 10550 50  0000 L CNN
+F 2 "Crystals:Crystal_SMD_TXC_7M-4pin_3.2x2.5mm" H 1650 10375 50  0001 C CNN
+F 3 "~" H 1650 10375 50  0001 C CNN
+	1    1650 10375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 10475 1650 10875
+Wire Wire Line
+	1350 10375 1550 10375
+Wire Wire Line
+	1750 10375 1950 10375
+Wire Wire Line
+	2125 9900 1950 9900
+Wire Wire Line
+	1950 9900 1950 10375
+Connection ~ 1950 10375
+Wire Wire Line
+	2125 9800 1350 9800
+Wire Wire Line
+	1350 9800 1350 10375
+Connection ~ 1350 10375
+Wire Wire Line
+	1650 10275 1800 10275
+Wire Wire Line
+	1800 10275 1800 10875
+Connection ~ 1800 10875
+Wire Wire Line
+	1800 10875 1650 10875
 $EndSCHEMATC
