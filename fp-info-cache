@@ -1,300 +1,377 @@
-1629050917245
-Housings_SOIC
-Diodes_PSOP-8
+1629515308356
+Capacitors_SMD
+CP_Elec_3x5.3
 
 
 0
 0
 0
-Housings_SOIC
-HSOP-20-1EP_11.0x15.9mm_Pitch1.27mm_SlugDown
+Capacitors_SMD
+CP_Elec_4x4.5
 
 
 0
 0
 0
-Housings_SOIC
-HSOP-20-1EP_11.0x15.9mm_Pitch1.27mm_SlugDown_ThermalVias
+Capacitors_SMD
+CP_Elec_4x5.3
 
 
 0
 0
 0
-Housings_SOIC
-HSOP-20-1EP_11.0x15.9mm_Pitch1.27mm_SlugUp
+Capacitors_SMD
+CP_Elec_4x5.7
 
 
 0
 0
 0
-Housings_SOIC
-HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm
+Capacitors_SMD
+CP_Elec_4x5.8
 
 
 0
 0
 0
-Housings_SOIC
-HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm_LargeCopper
+Capacitors_SMD
+CP_Elec_5x4.5
 
 
 0
 0
 0
-Housings_SOIC
-HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm_ThermalVias
+Capacitors_SMD
+CP_Elec_5x5.3
 
 
 0
 0
 0
-Housings_SOIC
-HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm_ThermalVias_LargeCopper
+Capacitors_SMD
+CP_Elec_5x5.7
 
 
 0
 0
 0
-Housings_SOIC
-Infineon_PG-DSO-8-43
+Capacitors_SMD
+CP_Elec_5x5.8
 
 
 0
 0
 0
-Housings_SOIC
-PowerPAK_SO-8_Dual
+Capacitors_SMD
+CP_Elec_6.3x4.5
 
 
 0
 0
 0
-Housings_SOIC
-PowerPAK_SO-8_Single
+Capacitors_SMD
+CP_Elec_6.3x5.3
 
 
 0
 0
 0
-Housings_SOIC
-SO-4_4.4x2.3mm_Pitch1.27mm
+Capacitors_SMD
+CP_Elec_6.3x5.7
 
 
 0
 0
 0
-Housings_SOIC
-SO-4_4.4x3.6mm_Pitch2.54mm
+Capacitors_SMD
+CP_Elec_6.3x5.8
 
 
 0
 0
 0
-Housings_SOIC
-SO-4_4.4x4.3mm_Pitch2.54mm
+Capacitors_SMD
+CP_Elec_6.3x7.7
 
 
 0
 0
 0
-Housings_SOIC
-SO-4_7.6x3.6mm_Pitch2.54mm
+Capacitors_SMD
+CP_Elec_8x5.4
 
 
 0
 0
 0
-Housings_SOIC
-SO-5_4.4x3.6mm_Pitch1.27mm
+Capacitors_SMD
+CP_Elec_8x6.5
 
 
 0
 0
 0
-Housings_SOIC
-SO-6L_10x3.84mm_Pitch1.27mm
+Capacitors_SMD
+CP_Elec_8x6.7
 
 
 0
 0
 0
-Housings_SOIC
-SO-6_4.4x3.6mm_Pitch1.27mm
+Capacitors_SMD
+CP_Elec_8x10
 
 
 0
 0
 0
-Housings_SOIC
-SO-8_5.3x6.2mm_Pitch1.27mm
+Capacitors_SMD
+CP_Elec_8x10.5
 
 
 0
 0
 0
-Housings_SOIC
-SO-20_12.8x7.5mm_Pitch1.27mm
+Capacitors_SMD
+CP_Elec_10x7.7
 
 
 0
 0
 0
-Housings_SOIC
-SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm
+Capacitors_SMD
+CP_Elec_10x10
 
 
 0
 0
 0
-Housings_SOIC
-SOIC-8_3.9x4.9mm_Pitch1.27mm
+Capacitors_SMD
+CP_Elec_10x10.5
 
 
 0
 0
 0
-Housings_SOIC
-SOIC-14W_7.5x9.0mm_Pitch1.27mm
+Capacitors_SMD
+C_0201
 
 
 0
 0
 0
-Housings_SOIC
-SOIC-14_3.9x8.7mm_Pitch1.27mm
+Capacitors_SMD
+C_0201_NoSilk
 
 
 0
 0
 0
-Housings_SOIC
-SOIC-16W_5.3x10.2mm_Pitch1.27mm
+Capacitors_SMD
+C_0402
 
 
 0
 0
 0
-Housings_SOIC
-SOIC-16W_7.5x10.3mm_Pitch1.27mm
+Capacitors_SMD
+C_0402_NoSilk
 
 
 0
 0
 0
-Housings_SOIC
-SOIC-16W_7.5x12.8mm_Pitch1.27mm
+Capacitors_SMD
+C_0603
 
 
 0
 0
 0
-Housings_SOIC
-SOIC-16_3.9x9.9mm_Pitch1.27mm
+Capacitors_SMD
+C_0603_HandSoldering
 
 
 0
 0
 0
-Housings_SOIC
-SOIC-18W_7.5x11.6mm_Pitch1.27mm
+Capacitors_SMD
+C_0805
 
 
 0
 0
 0
-Housings_SOIC
-SOIC-20W_7.5x12.8mm_Pitch1.27mm
+Capacitors_SMD
+C_0805_HandSoldering
 
 
 0
 0
 0
-Housings_SOIC
-SOIC-24W_7.5x15.4mm_Pitch1.27mm
+Capacitors_SMD
+C_1206
 
 
 0
 0
 0
-Housings_SOIC
-SOIC-28W_7.5x17.9mm_Pitch1.27mm
+Capacitors_SMD
+C_1206_HandSoldering
 
 
 0
 0
 0
-Housings_SOIC
-SOIC-28W_7.5x18.7mm_Pitch1.27mm
+Capacitors_SMD
+C_1210
 
 
 0
 0
 0
-Housings_SOIC
-SOIJ-8_5.3x5.3mm_Pitch1.27mm
+Capacitors_SMD
+C_1210_HandSoldering
 
 
 0
 0
 0
-Housings_SOIC
-SSO-6_6.8x4.6mm_Pitch1.27mm_Clearance7mm
+Capacitors_SMD
+C_1812
 
 
 0
 0
 0
-Housings_SOIC
-SSO-6_6.8x4.6mm_Pitch1.27mm_Clearance8mm
+Capacitors_SMD
+C_1812_HandSoldering
 
 
 0
 0
 0
-Housings_SOIC
-SSO-8_6.8x5.9mm_Pitch1.27mm_Clearance7mm
+Capacitors_SMD
+C_1825
 
 
 0
 0
 0
-Housings_SOIC
-SSO-8_6.8x5.9mm_Pitch1.27mm_Clearance8mm
+Capacitors_SMD
+C_1825_HandSoldering
 
 
 0
 0
 0
-Housings_SOIC
-SSO-8_9.6x6.3mm_Pitch1.27mm_Clearance10.5mm
+Capacitors_SMD
+C_2220
 
 
 0
 0
 0
-Housings_SOIC
-SSO-8_13.6x6.3mm_Pitch1.27mm_Clearance14.2mm
+Capacitors_SMD
+C_2220_HandSoldering
 
 
 0
 0
 0
-Housings_SOIC
-TI_SO-PowerPAD-8
+Capacitors_SMD
+C_2225
 
 
 0
 0
 0
-Housings_SOIC
-TI_SO-PowerPAD-8_ThermalVias
+Capacitors_SMD
+C_2225_HandSoldering
 
 
 0
 0
 0
-Housings_SOIC
-Zetex_SM8
+Capacitors_SMD
+C_Trimmer_Murata_TZB4-A
+
+
+0
+0
+0
+Capacitors_SMD
+C_Trimmer_Murata_TZB4-B
+
+
+0
+0
+0
+Capacitors_SMD
+C_Trimmer_Murata_TZC3
+
+
+0
+0
+0
+Capacitors_SMD
+C_Trimmer_Murata_TZR1
+
+
+0
+0
+0
+Capacitors_SMD
+C_Trimmer_Murata_TZW4
+
+
+0
+0
+0
+Capacitors_SMD
+C_Trimmer_Murata_TZY2
+
+
+0
+0
+0
+Capacitors_SMD
+C_Trimmer_Sprague-Goodman_SGC3
+
+
+0
+0
+0
+Capacitors_SMD
+C_Trimmer_Voltronics_JN
+
+
+0
+0
+0
+Capacitors_SMD
+C_Trimmer_Voltronics_JQ
+
+
+0
+0
+0
+Capacitors_SMD
+C_Trimmer_Voltronics_JR
+
+
+0
+0
+0
+Capacitors_SMD
+C_Trimmer_Voltronics_JV
+
+
+0
+0
+0
+Capacitors_SMD
+C_Trimmer_Voltronics_JZ
 
 
 0
