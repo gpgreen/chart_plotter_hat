@@ -228,7 +228,7 @@ ENDDEF
 #
 # CustomComponents_VCAN26A2
 #
-DEF CustomComponents_VCAN26A2 U 0 40 Y Y 1 F N
+DEF CustomComponents_VCAN26A2 U 0 40 Y N 1 F N
 F0 "U" -350 400 50 H V C CNN
 F1 "CustomComponents_VCAN26A2" 300 400 50 H V C CNN
 F2 "TO_SOT_Packages_SMD:SOT-323_SC-70" 0 400 50 H I C CNN
