@@ -1,309 +1,407 @@
-1631053200923
-Diodes_SMD
-D_0603
+88205002710401
+geda
+4N2X
+dil-6-2.54
 
-
-0
-0
 0
-Diodes_SMD
-D_0805
+6
+6
+geda
+3001
 
 
 0
-0
-0
-Diodes_SMD
-D_1206
+3
+2
+geda
+ABS07-120-Crystal
 
 
-0
 0
+2
+2
+geda
+ALF300gg
+Axial diode (pin 1 is cathode)
+
 0
-Diodes_SMD
-D_2010
+2
+2
+geda
+ALF400gg
+Axial diode (pin 1 is cathode)
 
+0
+2
+2
+geda
+ALF500gg
+Axial diode (pin 1 is cathode)
 
 0
+2
+2
+geda
+ALF500ggrev
+Axial diode (pin 2 is cathode)
+
 0
+2
+2
+geda
+ALF600gg
+Axial diode (pin 1 is cathode)
+
 0
-Diodes_SMD
-D_2114
+2
+2
+geda
+ALF700gg
+Axial diode (pin 1 is cathode)
 
+0
+2
+2
+geda
+ALF800gg
+Axial diode (pin 1 is cathode)
 
 0
+2
+2
+geda
+ALF900gg
+Axial diode (pin 1 is cathode)
+
 0
+2
+2
+geda
+ALF1000gg
+Axial diode (pin 1 is cathode)
+
 0
-Diodes_SMD
-D_3220
+2
+2
+geda
+B6B-XH-AM
 
 
-0
-0
 0
-Diodes_SMD
-D_MELF
+7
+6
+geda
+BMP085
 
 
 0
-0
-0
-Diodes_SMD
-D_MELF-RM10_Universal_Handsoldering
+8
+8
+geda
+BOX-HEADER6
 
 
-0
 0
-0
-Diodes_SMD
-D_MELF_Handsoldering
+6
+6
+geda
+BOX-HEADER10
 
 
-0
-0
 0
-Diodes_SMD
-D_MicroMELF
+10
+10
+geda
+BOX-HEADER20
 
 
 0
-0
-0
-Diodes_SMD
-D_MicroMELF_Hadsoldering
+20
+20
+geda
+BS-3
 
 
-0
 0
-0
-Diodes_SMD
-D_MiniMELF
+2
+2
+geda
+CAP-FKV-D8
 
 
-0
-0
 0
-Diodes_SMD
-D_MiniMELF_Handsoldering
+2
+2
+geda
+CAP-FKV-H13
 
 
 0
-0
-0
-Diodes_SMD
-D_PowerDI-123
+2
+2
+geda
+CT6EP102
 
 
-0
 0
-0
-Diodes_SMD
-D_Powermite2_AK
+3
+3
+geda
+CT219-2MST
 
 
-0
-0
 0
-Diodes_SMD
-D_Powermite2_KA
+4
+4
+geda
+DPAK-3
 
 
 0
-0
-0
-Diodes_SMD
-D_Powermite3
+3
+3
+geda
+FASTON-187-vert-90deg-terminal
 
 
-0
 0
-0
-Diodes_SMD
-D_Powermite_AK
+2
+1
+geda
+FASTON-250-30degree-terminal
 
 
-0
-0
 0
-Diodes_SMD
-D_Powermite_KA
+3
+3
+geda
+HC49S
 
 
 0
-0
-0
-Diodes_SMD
-D_SC-80
+2
+2
+geda
+HMC5843
 
 
-0
 0
-0
-Diodes_SMD
-D_SC-80_HandSoldering
+20
+20
+geda
+ITG-3400A-LGA-24-3x3
 
 
-0
-0
 0
-Diodes_SMD
-D_SMA
+24
+24
+geda
+LGA-10
 
 
 0
-0
-0
-Diodes_SMD
-D_SMA-SMB_Universal_Handsoldering
+10
+10
+geda
+LGA-14
 
 
-0
 0
-0
-Diodes_SMD
-D_SMA_Handsoldering
+14
+14
+geda
+LGA-16
 
 
-0
-0
 0
-Diodes_SMD
-D_SMB
+16
+16
+geda
+LGA-16-3x3x1.0
 
 
 0
-0
-0
-Diodes_SMD
-D_SMB-SMC_Universal_Handsoldering
+16
+16
+geda
+LGA-16-4x4x1.5
 
 
-0
 0
-0
-Diodes_SMD
-D_SMB_Handsoldering
+16
+16
+geda
+LGA-28
 
 
-0
-0
 0
-Diodes_SMD
-D_SMB_Modified
+28
+28
+geda
+LGA-28-5x5x1
 
 
 0
-0
-0
-Diodes_SMD
-D_SMC
+28
+28
+geda
+LPCC16
 
 
-0
 0
-0
-Diodes_SMD
-D_SMC-RM10_Universal_Handsoldering
+16
+16
+geda
+MS412FE-FL26E
 
 
-0
-0
 0
-Diodes_SMD
-D_SMC_Handsoldering
+2
+2
+geda
+NORCOMP-STACKED-DSUB9
 
 
 0
-0
-0
-Diodes_SMD
-D_SOD-110
+22
+19
+geda
+NPN-TO92
 
 
-0
 0
-0
-Diodes_SMD
-D_SOD-123
+3
+3
+geda
+OMRON-RELAY-G5SB-14
 
 
 0
-0
+5
+5
+geda
+RADIAL_CAN 250
+capacitor_radial
+
 0
-Diodes_SMD
-D_SOD-123F
+2
+2
+geda
+ROTARY-ENCODER-TW-700198
 
 
 0
-0
-0
-Diodes_SMD
-D_SOD-323
+7
+6
+geda
+SCP1000
 
 
-0
 0
-0
-Diodes_SMD
-D_SOD-323F
+18
+16
+geda
+SCREWTERMINAL-3.5-2
 
 
-0
-0
 0
-Diodes_SMD
-D_SOD-323_HandSoldering
+2
+2
+geda
+SCREWTERMINAL-3.5-3
 
 
 0
-0
-0
-Diodes_SMD
-D_SOD-523
+3
+3
+geda
+SCREWTERMINAL-3.5-6
 
 
-0
 0
-0
-Diodes_SMD
-D_SOT-23_ANK
+6
+6
+geda
+SMD-switch
 
 
-0
-0
 0
-Diodes_SMD
-D_SOT-23_NKA
+4
+4
+geda
+SO4
 
 
 0
-0
-0
-Diodes_SMD
-D_TUMD2
+4
+4
+geda
+SO7_14
 
 
-0
 0
+7
+7
+geda
+SOD323_gpg
+
+
 0
-Diodes_SMD
-Diode_Bridge_DFS
+2
+2
+geda
+SOT323DL
 
 
 0
+3
+3
+geda
+TO-92flat
+
+
 0
+3
+3
+geda
+TSOT23-95P-280L1-5N__LTC_S5_Package
+TSOT23-95P-280L1-5N__LTC_S5_Package
+
 0
-Diodes_SMD
-Diode_Bridge_MBLS
+5
+5
+geda
+TSSOP20
 
 
-0
 0
+20
+20
+geda
+UM6-LT
+
+
 0
-Diodes_SMD
-Diode_Bridge_TO-269AA
+17
+14
+geda
+beagleboard_buddy
 
 
 0
+32
+32
+geda
+teensy_31
+
+
 0
+37
+37
+geda
+tp-40
+
+
 0
+1
+1
