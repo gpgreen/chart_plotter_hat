@@ -381,23 +381,8 @@ Wire Wire Line
 	1600 4625 1600 4675
 Text Notes 7975 1075 0    118  ~ 24
 BMP085 Connector
-$Comp
-L power:GND #PWR0108
-U 1 1 5FDC841D
-P 8325 1475
-F 0 "#PWR0108" H 8325 1225 50  0001 C CNN
-F 1 "GND" H 8330 1302 50  0000 C CNN
-F 2 "" H 8325 1475 50  0001 C CNN
-F 3 "" H 8325 1475 50  0001 C CNN
-	1    8325 1475
-	1    0    0    -1  
-$EndComp
 Text GLabel 8675 1675 0    50   Input ~ 0
 XCLR
-Text GLabel 8675 1875 0    50   BiDi ~ 0
-SDA
-Text GLabel 8675 1775 0    50   Input ~ 0
-SCL
 Text GLabel 8675 1575 0    50   Output ~ 0
 EOC
 Text Notes 14600 3950 0    118  ~ 24
@@ -1061,27 +1046,10 @@ F 3 "" H 11025 9075 50  0000 C CNN
 $EndComp
 Text Notes 12200 2875 0    118  ~ 24
 Voltmeter Connection
-$Comp
-L Connector_Generic:Conn_01x06 J1
-U 1 1 5FF9F71C
-P 9075 1575
-F 0 "J1" H 9155 1567 50  0000 L CNN
-F 1 "JST PH" H 9155 1476 50  0000 L CNN
-F 2 "Connectors_JST:JST_PH_B6B-PH-K_06x2.00mm_Straight" H 9075 1575 50  0001 C CNN
-F 3 "~" H 9075 1575 50  0001 C CNN
-	1    9075 1575
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8675 1375 8875 1375
 Wire Wire Line
 	8675 1575 8875 1575
 Wire Wire Line
 	8675 1675 8875 1675
-Wire Wire Line
-	8675 1775 8875 1775
-Wire Wire Line
-	8675 1875 8875 1875
 $Comp
 L Connector_Generic:Conn_01x03 J9
 U 1 1 5FF77E36
@@ -1510,17 +1478,6 @@ F 3 "" H 4025 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VEE #PWR022
-U 1 1 608907E2
-P 8675 1375
-F 0 "#PWR022" H 8675 1225 50  0001 C CNN
-F 1 "VEE" H 8690 1548 50  0000 C CNN
-F 2 "" H 8675 1375 50  0001 C CNN
-F 3 "" H 8675 1375 50  0001 C CNN
-	1    8675 1375
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VEE #PWR0103
 U 1 1 6092F692
 P 2900 5850
@@ -1728,8 +1685,6 @@ F 3 "~" H 14850 4275 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 NoConn ~ 13675 8125
-Wire Wire Line
-	8325 1475 8875 1475
 Connection ~ 14850 4275
 Wire Wire Line
 	14600 4275 14850 4275
@@ -2388,4 +2343,15 @@ Wire Wire Line
 	8325 4700 8125 4700
 Wire Wire Line
 	8325 4600 7825 4600
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 61554C23
+P 9075 1575
+F 0 "J1" H 9155 1567 50  0000 L CNN
+F 1 "JST PH" H 9155 1476 50  0000 L CNN
+F 2 "Connectors_JST:JST_PH_B2B-PH-K_02x2.00mm_Straight" H 9075 1575 50  0001 C CNN
+F 3 "~" H 9075 1575 50  0001 C CNN
+	1    9075 1575
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
