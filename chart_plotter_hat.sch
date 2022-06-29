@@ -5,8 +5,8 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "Chart Plotter Hat"
-Date ""
-Rev "C"
+Date "2022-06-29"
+Rev "D"
 Comp "bit-builder.com"
 Comment1 ""
 Comment2 ""
@@ -350,8 +350,6 @@ Wire Wire Line
 Wire Wire Line
 	1600 5125 1600 4975
 Wire Wire Line
-	1500 4625 1600 4625
-Wire Wire Line
 	1100 4225 1100 4325
 Connection ~ 1350 4225
 Connection ~ 1600 4625
@@ -408,7 +406,7 @@ AVR_CS
 Wire Wire Line
 	13675 5825 15525 5825
 Wire Wire Line
-	13675 7825 13950 7825
+	13675 7825 13800 7825
 Text Notes 13925 875  2    118  ~ 24
 ADC Connector
 Text GLabel 13950 6625 2    50   Input ~ 0
@@ -831,7 +829,7 @@ Wire Wire Line
 	13675 7225 13950 7225
 Text GLabel 15075 1475 0    50   Input ~ 0
 RESET
-Text GLabel 1500 4625 0    50   Input ~ 0
+Text GLabel 925  4625 0    50   Input ~ 0
 EEPROM
 Text GLabel 13950 6425 2    50   Output ~ 0
 EEPROM
@@ -2354,4 +2352,62 @@ F 3 "~" H 9075 1575 50  0001 C CNN
 	1    9075 1575
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R12
+U 1 1 62C07CB1
+P 14100 8175
+F 0 "R12" V 14180 8175 50  0000 C CNN
+F 1 "1.6K" V 14100 8175 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 14030 8175 50  0001 C CNN
+F 3 "" H 14100 8175 50  0001 C CNN
+	1    14100 8175
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14100 8025 13800 8025
+Wire Wire Line
+	13800 8025 13800 7825
+Connection ~ 13800 7825
+Wire Wire Line
+	13800 7825 13950 7825
+$Comp
+L power:GND #PWR022
+U 1 1 62C1D3B7
+P 14100 8325
+F 0 "#PWR022" H 14100 8075 50  0001 C CNN
+F 1 "GND" H 14100 8175 50  0000 C CNN
+F 2 "" H 14100 8325 50  0000 C CNN
+F 3 "" H 14100 8325 50  0000 C CNN
+	1    14100 8325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J12
+U 1 1 62C40DFD
+P 1000 5075
+F 0 "J12" H 918 4750 50  0000 C CNN
+F 1 "EWRITE" H 918 4841 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1000 5075 50  0001 C CNN
+F 3 "~" H 1000 5075 50  0001 C CNN
+	1    1000 5075
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 62C6CD1B
+P 1200 5075
+F 0 "#PWR0108" H 1200 4825 50  0001 C CNN
+F 1 "GND" H 1200 4925 50  0000 C CNN
+F 2 "" H 1200 5075 50  0000 C CNN
+F 3 "" H 1200 5075 50  0000 C CNN
+	1    1200 5075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 4975 1200 4625
+Wire Wire Line
+	1200 4625 1600 4625
+Wire Wire Line
+	925  4625 1200 4625
+Connection ~ 1200 4625
 $EndSCHEMATC
