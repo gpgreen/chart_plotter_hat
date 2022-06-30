@@ -1267,10 +1267,6 @@ Wire Wire Line
 	13675 6325 13950 6325
 Wire Wire Line
 	13675 5925 13950 5925
-Text GLabel 1750 1875 0    50   BiDi ~ 0
-BUTTON
-Wire Wire Line
-	1750 1875 2050 1875
 Text Label 825  2075 0    60   ~ 0
 P3V3_HAT
 Wire Wire Line
@@ -2285,7 +2281,7 @@ Connection ~ 15175 4600
 Wire Wire Line
 	14650 4500 15425 4500
 Wire Wire Line
-	2950 9425 3275 9425
+	2950 9425 3150 9425
 Wire Wire Line
 	1600 8425 1750 8425
 Connection ~ 2425 6675
@@ -2381,28 +2377,6 @@ F 3 "" H 14100 8325 50  0000 C CNN
 	1    14100 8325
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J12
-U 1 1 62C40DFD
-P 1000 5075
-F 0 "J12" H 918 4750 50  0000 C CNN
-F 1 "EWRITE" H 918 4841 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1000 5075 50  0001 C CNN
-F 3 "~" H 1000 5075 50  0001 C CNN
-	1    1000 5075
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 62C6CD1B
-P 1200 5075
-F 0 "#PWR0108" H 1200 4825 50  0001 C CNN
-F 1 "GND" H 1200 4925 50  0000 C CNN
-F 2 "" H 1200 5075 50  0000 C CNN
-F 3 "" H 1200 5075 50  0000 C CNN
-	1    1200 5075
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1200 4975 1200 4625
 Wire Wire Line
@@ -2410,4 +2384,47 @@ Wire Wire Line
 Wire Wire Line
 	925  4625 1200 4625
 Connection ~ 1200 4625
+$Comp
+L Device:R R13
+U 1 1 62C0ED57
+P 3150 9725
+F 0 "R13" V 3230 9725 50  0000 C CNN
+F 1 "10K" V 3150 9725 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3080 9725 50  0001 C CNN
+F 3 "" H 3150 9725 50  0001 C CNN
+	1    3150 9725
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VEE #PWR036
+U 1 1 62C102AA
+P 3375 9875
+F 0 "#PWR036" H 3375 9725 50  0001 C CNN
+F 1 "VEE" H 3390 10048 50  0000 C CNN
+F 2 "" H 3375 9875 50  0001 C CNN
+F 3 "" H 3375 9875 50  0001 C CNN
+	1    3375 9875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 9875 3375 9875
+Wire Wire Line
+	3150 9575 3150 9425
+Connection ~ 3150 9425
+Wire Wire Line
+	3150 9425 3275 9425
+$Comp
+L Connector:TestPoint TP1
+U 1 1 62C56CCF
+P 750 4975
+F 0 "TP1" H 808 5093 50  0000 L CNN
+F 1 "EEPROM Write" H 808 5002 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 950 4975 50  0001 C CNN
+F 3 "~" H 950 4975 50  0001 C CNN
+	1    750  4975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 4975 750  4975
+NoConn ~ 2050 1875
 $EndSCHEMATC
