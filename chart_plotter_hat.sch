@@ -1428,12 +1428,8 @@ Text GLabel 1600 8425 0    50   Input ~ 0
 CAN_CS
 Text GLabel 3600 1775 2    50   Input ~ 0
 CAN_CS
-Text GLabel 3600 2975 2    50   Input ~ 0
-CAN_RST
 Wire Wire Line
 	3250 2075 3600 2075
-Wire Wire Line
-	3250 2975 3600 2975
 Wire Wire Line
 	975  9600 975  9725
 Wire Wire Line
@@ -1641,8 +1637,6 @@ Wire Wire Line
 Wire Wire Line
 	10900 4525 11125 4525
 NoConn ~ 15575 1275
-Text GLabel 3275 9425 2    50   Input ~ 0
-CAN_RST
 $Comp
 L raspberrypi_hat:OX40HAT J3
 U 1 1 58DFC771
@@ -2281,8 +2275,6 @@ Connection ~ 15175 4600
 Wire Wire Line
 	14650 4500 15425 4500
 Wire Wire Line
-	2950 9425 3150 9425
-Wire Wire Line
 	1600 8425 1750 8425
 Connection ~ 2425 6675
 Connection ~ 6125 7175
@@ -2385,34 +2377,16 @@ Wire Wire Line
 	925  4625 1200 4625
 Connection ~ 1200 4625
 $Comp
-L Device:R R13
-U 1 1 62C0ED57
-P 3150 9725
-F 0 "R13" V 3230 9725 50  0000 C CNN
-F 1 "10K" V 3150 9725 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3080 9725 50  0001 C CNN
-F 3 "" H 3150 9725 50  0001 C CNN
-	1    3150 9725
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:VEE #PWR036
 U 1 1 62C102AA
-P 3375 9875
-F 0 "#PWR036" H 3375 9725 50  0001 C CNN
-F 1 "VEE" H 3390 10048 50  0000 C CNN
-F 2 "" H 3375 9875 50  0001 C CNN
-F 3 "" H 3375 9875 50  0001 C CNN
-	1    3375 9875
+P 3275 9425
+F 0 "#PWR036" H 3275 9275 50  0001 C CNN
+F 1 "VEE" H 3290 9598 50  0000 C CNN
+F 2 "" H 3275 9425 50  0001 C CNN
+F 3 "" H 3275 9425 50  0001 C CNN
+	1    3275 9425
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3150 9875 3375 9875
-Wire Wire Line
-	3150 9575 3150 9425
-Connection ~ 3150 9425
-Wire Wire Line
-	3150 9425 3275 9425
 $Comp
 L Connector:TestPoint TP1
 U 1 1 62C56CCF
@@ -2427,4 +2401,7 @@ $EndComp
 Wire Wire Line
 	1200 4975 750  4975
 NoConn ~ 2050 1875
+Wire Wire Line
+	2950 9425 3275 9425
+NoConn ~ 3250 2975
 $EndSCHEMATC
