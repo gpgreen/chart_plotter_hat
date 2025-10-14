@@ -9061,19 +9061,6 @@
 		)
 		(uuid "c1da27e8-269d-4a06-8ed3-fc0f3804cc77")
 	)
-	(text "Voltmeter Connection"
-		(exclude_from_sim no)
-		(at 309.88 73.025 0)
-		(effects
-			(font
-				(size 2.9972 2.9972)
-				(thickness 0.5994)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "d1de3292-729f-4e19-a896-284b98a1ae08")
-	)
 	(text "CAN Connector"
 		(exclude_from_sim no)
 		(at 372.745 62.23 0)
@@ -11010,16 +10997,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 86.995) (xy 320.675 86.995)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84aaea0e-a656-46a5-b5c7-a869fb05912c")
-	)
-	(wire
-		(pts
 			(xy 340.36 127) (xy 346.075 127)
 		)
 		(stroke
@@ -11430,16 +11407,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 84.455) (xy 318.135 84.455)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b301a4a8-a35a-49e8-937b-138c2c225545")
-	)
-	(wire
-		(pts
 			(xy 82.55 40.005) (xy 91.44 40.005)
 		)
 		(stroke
@@ -11457,16 +11424,6 @@
 			(type default)
 		)
 		(uuid "b685b98d-fe27-497b-9d01-dadbb4f613ed")
-	)
-	(wire
-		(pts
-			(xy 325.12 81.915) (xy 320.675 81.915)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b936ca16-a651-4d4f-ba11-bd12cc114af6")
 	)
 	(wire
 		(pts
@@ -12197,16 +12154,6 @@
 			(justify right bottom)
 		)
 		(uuid "98d4566e-0325-4fd8-989b-8a313ca241b1")
-	)
-	(label "12VBAT"
-		(at 321.945 81.915 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "98eac0f0-c82d-4ecd-b249-94016e16bfb4")
 	)
 	(label "GND"
 		(at 113.03 47.625 180)
@@ -17488,77 +17435,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 330.2 84.455 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ff77e36")
-		(property "Reference" "J9"
-			(at 332.232 83.3882 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST PH"
-			(at 332.232 85.6996 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connectors_JST:JST_PH_B3B-PH-K_03x2.00mm_Straight"
-			(at 330.2 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 330.2 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 330.2 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c25c96d3-8758-4f15-b360-92df60568d14")
-		)
-		(pin "2"
-			(uuid "330d8abf-10fc-4dd0-90d8-950fc6fdc71d")
-		)
-		(pin "3"
-			(uuid "312bd19d-8a7f-4bf1-8f1d-02ff71876897")
-		)
-		(instances
-			(project ""
-				(path "/539f7589-5491-4018-9113-34d36da6b689"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 394.335 162.56 180)
 		(unit 1)
@@ -18163,68 +18039,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 320.675 86.995 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000600053dc")
-		(property "Reference" "#PWR0119"
-			(at 320.675 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 320.675 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.675 86.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.675 86.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 320.675 86.995 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "82f47883-b429-46f3-8ee2-bc5f85d621e0")
-		)
-		(instances
-			(project ""
-				(path "/539f7589-5491-4018-9113-34d36da6b689"
-					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 130.81 42.545 0)
 		(unit 1)
@@ -18475,70 +18289,6 @@
 			(project ""
 				(path "/539f7589-5491-4018-9113-34d36da6b689"
 					(reference "#PWR0123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 318.135 84.455 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006011989f")
-		(property "Reference" "#PWR0124"
-			(at 318.135 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 318.516 80.0608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 318.135 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 318.135 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 318.135 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6fe128aa-efec-4d2d-9844-16f9e584a33a")
-		)
-		(instances
-			(project ""
-				(path "/539f7589-5491-4018-9113-34d36da6b689"
-					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
