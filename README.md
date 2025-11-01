@@ -10,6 +10,8 @@ transceiver is isolated from the rest of the board. Has a
 ![Qwiic](https://www.sparkfun.com/qwiic) connector that allows I2C
 devices to be connected to the Raspberry Pi.
 
+![Finished](cph_revC.jpeg)
+
 ## Functions
 
 1. Onboard ATmega328P
@@ -37,5 +39,3 @@ onboard ATmega328P using avr-gcc and avr-libc.
 
 The Rust firmware is still experimental. There are a number of
 compiler bugs for the 8-bit AVR's yet.
-
-![Board](board.png)
